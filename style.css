@@ -587,6 +587,15 @@ p:last-child{
   padding: 80px 0;
   background: #09100F;
   color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.salary-hero-br-shape {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  height: 100%;
 }
 .salary-hero-section__inner {
   display: flex;
@@ -1020,6 +1029,8 @@ p:last-child{
 }
 .pm-card {
   border-radius: 12px;
+  background: #F9F8F5;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
 }
 .pm-card__image {
   border-top-left-radius: inherit;
@@ -1031,8 +1042,6 @@ p:last-child{
 .pm-card__content {
   padding: 24px 16px;
   border-radius: 0px 0px 12px 12px;
-  background: #F9F8F5;
-  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
 }
 .pm-card__content__top {
   margin-bottom: 12px;
