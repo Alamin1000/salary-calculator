@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Salary Calculator</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="Site description will be here" />
+    <link
+      href="https://kit-pro.fontawesome.com/releases/v5.15.2/css/pro.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/default-edit.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    <!--End ALL STYLESHEET -->
+  </head>
+
+  <body>
+    <!-- main-wrap -->
+    <div class="main-wrap">
+      <!-- offcanvas-start -->
+      <div class="offcanvas-menu">
+        <div class="offmenu" id="menuParent">
+          <a href="#" class="offcanvas-close"><i class="fal fa-times"></i></a>
+          <ul class="b-hi-menu">
+            <li>
+              <a href="#"><img src="images/collection/search.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="images/collection/notifications.svg" alt=""
+              /></a>
+            </li>
+          </ul>
+          <ul class="mobile-menu">
+            <li><a class="off-close" href="#">Brands</a></li>
+            <li><a class="off-close" href="#">About</a></li>
+            <li><a class="off-close" href="#">Membership</a></li>
+            <li><a class="off-close" href="#">Courses</a></li>
+            <li><a class="off-close" href="#">News</a></li>
+            <li><a class="off-close" href="#">Podcasts</a></li>
+            <li><a class="off-close" href="#">Partner</a></li>
+          </ul>
+          <div class="off-bottom-button">
+            <a href="#" class="b-hr-btn default-button default-button--dark">
+              Log in
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="offcanvas-overlay"></div>
+      <!-- offcanvas-start-end -->
+
+      <!-- header-section -->
+      <header class="b-header">
+        <div class="b-header-in">
+          <div class="container">
+            <div class="b-header__inner">
+              <a href="index.html" class="b-header-logo">
+                <img src="images/collection/pma-logo.svg" alt="" />
+              </a>
+              <div class="b-header-right">
+                <div class="b-main-menu">
+                  <ul>
+                    <li><a href="#">Certifications</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a class="active" href="#">Resources</a></li>
+                    <li><a href="#">Membership</a></li>
+                    <li><a href="#">Get involved</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">Jobs</a></li>
+                  </ul>
+                </div>
+                <ul class="b-hi-menu">
+                  <li>
+                    <a href="#"
+                      ><img src="images/collection/search.svg" alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="images/collection/notifications.svg" alt=""
+                    /></a>
+                  </li>
+                </ul>
+                <a
+                  href="#"
+                  class="b-hr-btn default-button default-button--dark"
+                >
+                  Log in
+                </a>
+              </div>
+
+              <a href="#" class="offmenu-open">
+                <img src="images/home/hamburger.png" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!--End header-section -->
+
+      <!-- main -->
+      <main>
+        
+
+
+        <!-- salary-hero -->
+        <section class="salary-hero-section">
+          <img src="images/salary/salary-hero-bg-shape.png" alt="" class="salary-hero-br-shape">
+          <div class="container">
+            <div class="salary-hero-section__inner">
+              <div class="salary-hero__content">
+                <h1>
+                  <img src="images/salary/sh-h1-shape.png" alt="" class="h1-shape">
+                  <span>Salary</span>
+                  <br>
+                  <span class="stl-1">calculator</span>
+                </h1>
+                <p>Want to know how your salary compares to others' across the globe? Or what you can expect as you progress up the career ladder? Fill in a few fields below, explore the advanced filters, and the salary calculator will do the rest for you! </p>
+              </div>
+              <a href="#" class="default-button bottom-button">Contribute to salary survey</a>
+            </div>
+          </div>
+        </section>
+        <!-- salary-hero-end -->
+
+
+        <!-- tr-section -->
+        <section class="tr-section">
+          <div class="container">
+            <div class="tr-section__inner">
+              <div class="tr-form">
+                <div class="tr-form__title">
+                  <h3 class="h3-d">
+                    <span>The results</span>
+                    <br>
+                    <span class="stl-1">are in...</span>
+                  </h3>
+                </div>
+                <div class="tr-form__body">
+                  <div class="single-input-x">
+                    <label class="label-x">Filter by: (1)</label>
+                    <div class="filter-tags-wrap">
+                      <label class="filter-tag">
+                        <input class="input-checkbox" type="checkbox">
+                        <div class="filter-tag__bg"></div>
+                        <span class="txt">Country</span>
+                      </label>
+                      <label class="filter-tag">
+                        <input class="input-checkbox" type="checkbox">
+                        <div class="filter-tag__bg"></div>
+                        <span class="txt">Position</span>
+                      </label>
+                      <label class="filter-tag">
+                        <input class="input-checkbox" type="checkbox">
+                        <div class="filter-tag__bg"></div>
+                        <span class="txt">Industry</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="single-input-x">
+                    <label class="label-x">Change your: (1)</label>
+                  </div>
+                  <div class="single-input-x" style="z-index: 50;">
+                    <label for="#" class="label-x">
+                      <span>Select your country</span>
+                      <span class="color-theme3">*</span>
+                    </label>
+                    <div class="select-dropdown-x">
+                      <div class="input-x"><span class="placeholder">Afghanistan</span></div>
+                      <i class="far fa-chevron-down chevron"></i>
+                      <div class="select-dropdown-menu">
+                        <ul>
+                          <li><a href="#" class="selected">Afghanistan</a></li>
+                          <li><a href="#">Albania</a></li>
+                          <li><a href="#">Antigua & Deps</a></li>
+                          <li><a href="#">Argentina</a></li>
+                          <li><a href="#">Australia</a></li>
+                          <li><a href="#">Austria</a></li>
+                          <li><a href="#">Bangladesh</a></li>
+                          <li><a href="#">Belarus</a></li>
+                          <li><a href="#">Belgium</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="single-input-x" style="z-index: 49;">
+                    <label for="#" class="label-x">
+                      <span>Select your position</span>
+                    </label>
+                    <div class="select-dropdown-x">
+                      <div class="input-x"><span class="placeholder">Select from the list...</span></div>
+                      <i class="far fa-chevron-down chevron"></i>
+                      <div class="select-dropdown-menu">
+                        <ul>
+                          <li><a href="#" class="selected">Associate Product Marketing Manager</a></li>
+                          <li><a href="#">Product Marketing Manager</a></li>
+                          <li><a href="#">Senior Product Marketing Manager</a></li>
+                          <li><a href="#">Head of Product Marketing</a></li>
+                          <li><a href="#">Director of Product Marketing</a></li>
+                          <li><a href="#">VP of Product Marketing</a></li>
+                          <li><a href="#">Other</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="single-input-x" style="z-index: 48;">
+                    <label for="#" class="label-x">
+                      <span>Select industry</span>
+                    </label>
+                    <div class="select-dropdown-x">
+                      <div class="input-x"><span class="placeholder">Select from the list...</span></div>
+                      <i class="far fa-chevron-down chevron"></i>
+                      <div class="select-dropdown-menu">
+                        <ul>
+                          <li><a href="#" class="selected">Accounting</a></li>
+                          <li><a href="#">Airlines/Aviation</a></li>
+                          <li><a href="#">Animation</a></li>
+                          <li><a href="#">Apparel & Fashion</a></li>
+                          <li><a href="#">Architecture & Planning</a></li>
+                          <li><a href="#">Arts & Craft</a></li>
+                          <li><a href="#">Automotive</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tr-form__btm">
+                  <a href="#" class="default-button tr-form__submit default-button--bordered-dark">
+                    <i class="far fa-redo fa-flip-horizontal"></i>
+                    <span>Reset to default</span>
+                  </a>
+                </div>
+              </div>
+              
+              <!-- tr-sec__main -->
+              <div class="tr-sec-main">
+                <div class="tr-sec-main__result">
+                  <h4>There are no available results for this at the moment.</h4>
+                  <p>We're constantly enhancing our salary calculator. Want to contribute to its development? Sign up using the form below, and we'll reach out to you promptly to get started!</p>
+                  <a href="#" class="default-button default-button--bordered-dark">Contribute to salary survey</a>
+                </div>
+              </div>
+              <!-- tr-sec__main-end -->
+            </div>
+          </div>
+        </section>
+        <!-- tr-section-end -->
+
+
+        <!-- ready-section -->
+        <section class="ready-section">
+          <div class="container">
+            <div class="ready-section__inner">
+              <div class="ready__content">
+                <h3 class="h3-d">
+                  <span>Ready to make the move?</span>
+                  <br>
+                  <span class="stl-1">Join our job’s board</span>
+                </h3>
+                <a href="#" class="bottom-button default-button default-button--dark">Join today</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ready-section-end -->
+
+        <!-- pm-section -->
+        <section class="pm-section">
+          <img src="images/salary/pm-sec-arrow.png" alt="" class="pm-sec-arrow">
+          <div class="container">
+            <div class="pm-section__inner">
+              <div class="pm-section__title">
+                  <h3 class="h3-d">
+                    <span>2022 Product Marketing </span>
+                    <br>
+                    <span class="stl-1">Salary Survey Results</span>
+                  </h3>
+                  <p>As the product marketing industry continues to (rightly!) grow in popularity, so does the demand for a fair working salary. </p>
+                  <p>For this year’s Product Marketing Salary Survey, we spoke with close to 800 product marketing professionals worldwide to give you an insight into what you, as a product marketer, should earn in your role.                                                                                                       </p>
+              </div>
+              <div class="pm-cards__wrapper">
+                <!-- card -->
+                <div class="pm-card">
+                  <a href="#" class="pm-card__image">
+                    <img src="images/salary/pm-card-1.png" alt="" class="img">
+                  </a>
+                  <div class="pm-card__content">
+                    <div class="pm-card__content__top">
+                      <a class="rdn-bdr-btn" href="#">Reports</a>
+                      <a href="#" class="pm-ct-mark">
+                        <i class="far fa-bookmark"></i>
+                      </a>
+                    </div>
+                    <h4><a href="#">Global Product Marketing Salary Survey</a></h4>
+                    <div class="pm-card__content__btm">
+                      <h5>January 30,  2023</h5>
+                      <h5>4 min</h5>
+                    </div>
+                  </div>
+                </div>
+                <!-- card-end -->
+                <!-- card -->
+                <div class="pm-card">
+                  <a href="#" class="pm-card__image">
+                    <img src="images/salary/pm-card-2.png" alt="" class="img">
+                  </a>
+                  <div class="pm-card__content">
+                    <div class="pm-card__content__top">
+                      <a class="rdn-bdr-btn" href="#">Reports</a>
+                      <a href="#" class="pm-ct-mark">
+                        <i class="far fa-bookmark"></i>
+                      </a>
+                    </div>
+                    <h4><a href="#">US Product Marketing Salary Survey</a></h4>
+                    <div class="pm-card__content__btm">
+                      <h5>January 30,  2023</h5>
+                      <h5>4 min</h5>
+                    </div>
+                  </div>
+                </div>
+                <!-- card-end -->
+                <!-- card -->
+                <div class="pm-card">
+                  <a href="#" class="pm-card__image">
+                    <img src="images/salary/pm-card-3.png" alt="" class="img">
+                  </a>
+                  <div class="pm-card__content">
+                    <div class="pm-card__content__top">
+                      <a class="rdn-bdr-btn" href="#">Reports</a>
+                      <a href="#" class="pm-ct-mark">
+                        <i class="far fa-bookmark"></i>
+                      </a>
+                    </div>
+                    <h4><a href="#">European Product Marketing Salary Survey</a></h4>
+                    <div class="pm-card__content__btm">
+                      <h5>January 30,  2023</h5>
+                      <h5>4 min</h5>
+                    </div>
+                  </div>
+                </div>
+                <!-- card-end -->
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- pm-section-end -->
+
+
+        <!-- gc-section -->
+        <section class="gc-section">
+          <img src="images/salary/gc-bg-shape.png" alt="" class="gc-sec-br-shape">
+          <div class="container">
+            <div class="gc-section__inner">
+              <div class="gc-sec__content">
+                <h3 class="h3-d">
+                  <span>Get more from</span>
+                  <br>
+                  <span class="stl-1">your career</span>
+                </h3>
+                <ul class="gc-ul">
+                  <li>Reason 1 to book demo</li>
+                  <li>Reason 2 to book demo</li>
+                  <li>Reason 3 to book demo</li>
+                </ul>
+                <a href="#" class="default-button bottom-button">Get certified</a>
+              </div>
+
+              <div class="gc-sec__image">
+                <img src="images/salary/gc.png" alt="">
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- gc-section-end -->
+
+        
+        <!-- gp-section -->
+        <section class="gp-section">
+          <div class="container">
+            <div class="gp-section__inner">
+              <div class="gp-sec__title">
+                <h3 class="h3-d">
+                  <img src="images/salary/gp-sec-title-h3-shape.png" alt="" class="shape-1">
+                  <span>How to</span>
+                  <br>
+                  <span class="stl-1">get paid</span>
+                </h3>
+                <p>Your 5-step framework to negotiating a higher salary</p>
+              </div>
+
+              <div class="gp-sec__fqs">
+                <div class="gp-fq-wrap">
+                  <div class="gp-fq-item gp-fq-item--expanded">
+                    <a href="#" class="gp-fq-item__title">
+                      Step 1: data collection
+                    </a>
+                    <div class="gp-fq-item__body">
+                      <div class="gp-fq-item__body__inner">
+                        <p>Use the salary calculator to benchmark salaries for PMMs in your role and region. Then, prepare a list of your accomplishments in the last 6-12 months, highlighting any product launches, campaigns, or projects that delivered substantial value or results for the company.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="gp-fq-item">
+                    <a href="#" class="gp-fq-item__title">
+                      Step 2: craft your pitch
+                    </a>
+                    <div class="gp-fq-item__body">
+                      <div class="gp-fq-item__body__inner">
+                        <p>Use the salary calculator to benchmark salaries for PMMs in your role and region. Then, prepare a list of your accomplishments in the last 6-12 months, highlighting any product launches, campaigns, or projects that delivered substantial value or results for the company.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="gp-fq-item">
+                    <a href="#" class="gp-fq-item__title">
+                      Step 3: timing is everything
+                    </a>
+                    <div class="gp-fq-item__body">
+                      <div class="gp-fq-item__body__inner">
+                        <p>Use the salary calculator to benchmark salaries for PMMs in your role and region. Then, prepare a list of your accomplishments in the last 6-12 months, highlighting any product launches, campaigns, or projects that delivered substantial value or results for the company.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="gp-fq-item">
+                    <a href="#" class="gp-fq-item__title">
+                      Step 4: practice & prepare
+                    </a>
+                    <div class="gp-fq-item__body">
+                      <div class="gp-fq-item__body__inner">
+                        <p>Use the salary calculator to benchmark salaries for PMMs in your role and region. Then, prepare a list of your accomplishments in the last 6-12 months, highlighting any product launches, campaigns, or projects that delivered substantial value or results for the company.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="gp-fq-item">
+                    <a href="#" class="gp-fq-item__title">
+                      Step 5: execute with confidence
+                    </a>
+                    <div class="gp-fq-item__body">
+                      <div class="gp-fq-item__body__inner">
+                        <p>Use the salary calculator to benchmark salaries for PMMs in your role and region. Then, prepare a list of your accomplishments in the last 6-12 months, highlighting any product launches, campaigns, or projects that delivered substantial value or results for the company.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+        <!-- gp-section-end -->
+
+
+        
+
+
+       
+
+      </main>
+      <!-- main end -->
+
+      <!-- footer-section -->
+      <footer class="b-footer">
+        <div class="container">
+          <div class="b-footer__inner">
+            <div class="b-footer-top__area">
+              <div class="b-footer-top__top">
+                <div class="b-foot-tt-title">
+                  <img
+                    src="images/collection/footer-dec-shape.png"
+                    alt=""
+                    class="t-shape"
+                  />
+                  <h3>Join our newsletter</h3>
+                  <p>We’ll send you a letter once per week. No spam.</p>
+                </div>
+                <div class="b-foot__tt-cta">
+                  <input
+                    type="text"
+                    class="input"
+                    placeholder="Enter your email"
+                  />
+                  <button class="submit-button default-button">
+                    Subscribe
+                  </button>
+                </div>
+              </div>
+              <div class="b-footer-top__bottom">
+                <div class="b-foot-tb-menu-row">
+                  <!-- menu-column -->
+                  <div class="b-foot-tb-menu active">
+                    <div class="b-foot-tb-menu__title">
+                      <h4>Certification</h4>
+                    </div>
+                    <div class="b-foot-tb-menu__main">
+                      <div class="b-foot-tb-menu__main__inner">
+                        <ul>
+                          <li><a href="#">All courses</a></li>
+                          <li><a href="#">Enterprise</a></li>
+                          <li><a href="#">Scholar Program</a></li>
+                          <li><a href="#">Certification Journey</a></li>
+                          <li><a href="#">PMA Academy</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- menu-column-end -->
+                  <!-- menu-column -->
+                  <div class="b-foot-tb-menu">
+                    <div class="b-foot-tb-menu__title">
+                      <h4>Events</h4>
+                    </div>
+                    <div class="b-foot-tb-menu__main">
+                      <div class="b-foot-tb-menu__main__inner">
+                        <ul>
+                          <li><a href="#">All events</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- menu-column-end -->
+                  <!-- menu-column -->
+                  <div class="b-foot-tb-menu">
+                    <div class="b-foot-tb-menu__title">
+                      <h4>Resources</h4>
+                    </div>
+                    <div class="b-foot-tb-menu__main">
+                      <div class="b-foot-tb-menu__main__inner">
+                        <ul>
+                          <li><a href="#">Content hub</a></li>
+                          <li><a href="#">Research and reports</a></li>
+                          <li><a href="#">Guides</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- menu-column-end -->
+                  <!-- menu-column -->
+                  <div class="b-foot-tb-menu">
+                    <div class="b-foot-tb-menu__title">
+                      <h4>Membership</h4>
+                    </div>
+                    <div class="b-foot-tb-menu__main">
+                      <div class="b-foot-tb-menu__main__inner">
+                        <ul>
+                          <li><a href="#">All membership</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- menu-column-end -->
+                  <!-- menu-column -->
+                  <div class="b-foot-tb-menu">
+                    <div class="b-foot-tb-menu__title">
+                      <h4>Get involved</h4>
+                    </div>
+                    <div class="b-foot-tb-menu__main">
+                      <div class="b-foot-tb-menu__main__inner">
+                        <ul>
+                          <li><a href="#">Build your personal brand</a></li>
+                          <li><a href="#">Partner with us</a></li>
+                          <li><a href="#">Ambassador</a></li>
+                          <li><a href="#">About PMA</a></li>
+                          <li><a href="#">Press resources</a></li>
+                          <li><a href="#">Brand guidelines</a></li>
+                          <li><a href="#">Careers</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- menu-column-end -->
+                  <!-- menu-column -->
+                  <div class="b-foot-tb-menu">
+                    <div class="b-foot-tb-menu__title">
+                      <h4>Community</h4>
+                    </div>
+                    <div class="b-foot-tb-menu__main">
+                      <div class="b-foot-tb-menu__main__inner">
+                        <ul>
+                          <li><a href="#">Meet us on LinkedIn</a></li>
+                          <li><a href="#">PMA meetups</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- menu-column-end -->
+                  <!-- menu-column -->
+                  <div class="b-foot-tb-menu">
+                    <div class="b-foot-tb-menu__title">
+                      <h4>Jobs</h4>
+                    </div>
+                    <div class="b-foot-tb-menu__main">
+                      <div class="b-foot-tb-menu__main__inner">
+                        <ul>
+                          <li><a href="#">All jobs</a></li>
+                          <li><a href="#">PMA consult</a></li>
+                          <li><a href="#">Talent program</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- menu-column-end -->
+                </div>
+              </div>
+            </div>
+
+            <div class="b-footer-bottom__area">
+              <div class="b-footer-bottom__top">
+                <div class="b-foot-bt__title">
+                  <a href="index.html" class="b-foot-bt__logo">
+                    <img src="images/collection/pma-logo-white.svg" alt="" />
+                  </a>
+                </div>
+                <div class="h-share b-foot-bt--h-share">
+                  <h4>Let’s elevate product marketing together.</h4>
+                  <ul class="h-share-ul">
+                    <li>
+                      <a href=""><i class="fab fa-linkedin-in"></i></a>
+                    </li>
+                    <li>
+                      <a href=""><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href=""><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                      <a href=""><i class="fab fa-youtube"></i></a>
+                    </li>
+                    <li>
+                      <a href=""><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li>
+                      <a href=""><i class="fab fa-slack"></i></a>
+                    </li>
+                    <li>
+                      <a href=""><i class="fab fa-slack-hash"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="b-footer-bottom__bottom">
+                <a href="#" class="b-foot-bb-a">2023 THE ALLIANCE</a>
+                <a href="#" class="b-foot-bb-a">PRIVACY & COOKIES POLICY</a>
+                <a href="#" class="b-foot-bb-a">CA USER RIGHTS</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--End footer-section -->
+
+    </div>
+    <!-- main-wrap -->
+    
+
+    <!-- js -->
+    <script src="js/main.js"></script>
+    <!-- End All Js -->
+  </body>
+</html>

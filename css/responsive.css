@@ -170,6 +170,13 @@
         width: 550px;
         max-width: 100%;
     }
+
+    .tr-form {
+        width: 320px;
+    }
+    .tr-section__inner {
+        gap: 70px;
+    }
 }
 
 
@@ -440,6 +447,18 @@
     }
     .pm-cards__wrapper {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .tr-section__inner {
+        flex-direction: column;
+    }
+    .tr-form {
+        width: 100%;
+        padding-bottom: 24px;
+        border-bottom: 1px solid #AEAEAE;
+    }
+    .tr-section__inner {
+        gap: 20px;
     }
 }
 
@@ -807,6 +826,10 @@
     }
     .pm-cards__wrapper {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .tr-section {
+        padding: 56px 0;
     }
 }
 
