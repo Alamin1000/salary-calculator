@@ -931,15 +931,16 @@ p:last-child{
   line-height: 40px; /* 125% */
   letter-spacing: -1.6px;
   display: flex;
+  transition: 0.3s;
 }
-.gp-fq-item--expanded .gp-fq-item__title {
+.gp-fq-item__title.active {
   color: #FF5C4D;
   padding-left: 41px;
   position: relative;
 }
-.gp-fq-item--expanded .gp-fq-item__title::after {
+.gp-fq-item__title::after {
   content: '';
-  background: url('images/salary/gp-fq-item__title-arrow.png') no-repeat center center/contain;
+  background: url('images/salary/gp-fq-item__title-arrow.svg') no-repeat center center/contain;
   height: 23px;
   width: 21px;
   display: block;
@@ -947,9 +948,14 @@ p:last-child{
   top: 50%;
   left: 0;
   transform: translate(0,-50%);
+  opacity: 0;
+  transition: 0.3s;
+}
+.gp-fq-item__title.active::after {
+  opacity: 1;
 }
 .gp-fq-item__body {
-  display: none;
+  /* display: none; */
 }
 .gp-fq-item--expanded .gp-fq-item__body {
   display: block;
